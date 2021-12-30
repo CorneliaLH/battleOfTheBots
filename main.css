@@ -1,0 +1,71 @@
+body {
+  background-color: rgba(15, 13, 13, 0.808);
+}
+
+h1 {
+  color: #6ae06a;
+  text-shadow: 1px 1px 1px white;
+}
+
+.bot1,
+.bot2 {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 10px;
+}
+
+.containerBots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.containerResult {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px;
+}
+
+.containerPoints {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-weight: 800;
+}
+
+button {
+  margin: 10px;
+  width: 100px;
+  color: #751975;
+  background-color: #72e0a0;
+  font-weight: 900;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 2px #751975;
+          box-shadow: 2px 2px 2px #751975;
+}
+
+.botText1,
+.botText2 {
+  font-size: 2em;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px white;
+}
+/*# sourceMappingURL=main.css.map */

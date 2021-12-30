@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(15, 13, 13, 0.808);
+}
+
+h1 {
+  color: rgb(106, 224, 106);
+  text-shadow: 1px 1px 1px white;
+}
+
+.bot1,
+.bot2 {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  margin: 10px;
+}
+
+.containerBots {
+  display: flex;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.containerResult {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.containerPoints {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+}
+button {
+  margin: 10px;
+  width: 100px;
+  color: rgb(117, 25, 117);
+  background-color: rgb(114, 224, 160);
+  font-weight: 900;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(117, 25, 117);
+}
+.botText1,
+.botText2 {
+  font-size: 2em;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px white;
+}
