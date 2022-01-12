@@ -1,5 +1,9 @@
 body {
   background-color: rgba(15, 13, 13, 0.808);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 h1 {

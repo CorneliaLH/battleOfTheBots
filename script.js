@@ -89,7 +89,7 @@ function changeHands() {
     "./img/rock-paper-scissors-g3acb553dd_640.png",
   ];
   let index = 0;
-  let interval = 200;
+  let interval = 100;
   function slide() {
     imgHands1.src = imgArray[index++ % imgArray.length];
     imgHands2.src = imgArray[index++ % imgArray.length];
@@ -169,7 +169,7 @@ function randomNumber() {
     containerResult.append(bot2ResultText);
     bot2ResultText.innerText = "En gång till..";
     bot2.style.border = "6px solid blue";
-    setTimeout(changeHands, 1500);
+    setTimeout(changeHands, 700);
     console.log("Oavgjort");
   }
 }
